@@ -1,9 +1,28 @@
 html {
   font-size: max(20pt, 2vw);
-} 
+}
 
 :focus {
   outline-style: dotted;
   outline-width: thick;
   outline-color: currentColor;
+}
+
+figure {
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+figcaption {
+  writing-mode: vertical-lr;
+}
+
+blockquote {
+  font-size: 2rem;
+  margin: auto;
+  padding: 0;
+  max-width: 10em;
 }
